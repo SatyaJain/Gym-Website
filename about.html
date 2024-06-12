@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="gym.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="navbar">
+      <div class="nav-logo">
+        <img src="images/fitness logo 5 .png" alt="Logo" />
+      </div>
+      <div class="nav-items">
+        <ul>
+          <li><a href="page.html"> Home </a></li>
+          <li><a href="class.html"> Classes </a></li>
+          <li><a href="product.html"> Product</a></li>
+          <li><a href="about.html"> Blog </a></li>
+        </ul>
+      </div>
+      <div class="nav-button">
+        <div class="anim-layer"></div>
+        <a href="#" id="navbar-sign-up">Sign Up</a>
+      </div>
+      <div id="hamburger-menu">&#9776;</div>
+    </div>
+
+    <div id="mobile-menu">
+      <div class="mobile-nav-items">
+        <ul>
+          <li><a href="page.html"> Home </a></li>
+          <li><a href="class.html"> Classes </a></li>
+          <li><a href="product.html"> Product</a></li>
+          <li><a href="about.html"> Blog </a></li>
+        </ul>
+      </div>
+      <div class="mobile-nav-button">
+        <div class="anim-layer"></div>
+        <a href="#" id="sign-up">Sign Up</a>
+      </div>
+      <div id="hamburger-cross">&#10006;</div>
+    </div>
+    <div id="modal" class="modal">
+      <div class="modal-content">
+        <div class="form-container">
+          <span class="close">&times;</span>
+          <h2>Subscription Plan</h2>
+          <div class="inner-box">
+            <form id="sign-up-form">
+              <label for="name">Full Name:</label>
+              <input type="text" id="name" name="name" required>
+    
+              <label for="email">Email:</label>
+              <input type="email" id="email" name="email" required>
+    
+              <label for="number">Mobile Number:</label>
+              <input type="text" id="number" name="number" required>
+    
+              <label>Duration:</label>
+              <div class="radio-group">
+                <input type="radio" id="monthly" name="duration" value="monthly" required>
+                <label for="monthly">Monthly</label>
+                <input type="radio" id="yearly" name="duration" value="yearly" required>
+                <label for="yearly">Yearly</label>
+              </div>
+    
+              <label>Mode of Payment:</label>
+              <div class="radio-group">
+                <input type="radio" id="cash" name="payment" value="cash" required>
+                <label for="cash">Cash</label>
+                <input type="radio" id="online" name="payment" value="online" required>
+                <label for="online">Online</label>
+              </div>
+    
+              <label>Personal Training:<sup>*Free with yearly plan</sup></label>
+              <div class="radio-group">
+            
+                <input type="radio" id="required" name="training" value="required" required>
+                <label for="required">Required</label>
+                <input type="radio" id="not-required" name="training" value="not-required" required>
+                <label for="not-required">Not Required</label>
+              </div>
+    
+              <!-- <input type="checkbox" id="terms" name="terms" required>
+              <label for="terms">I accept all terms and conditions provided in this form.</label> -->
+    
+              <button type="submit">Submit</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="blog-sec">
+      <div class="column">
+        <img src="images/Rectangle 133blogs.png" alt="img" />
+      </div>
+      <div class="column">
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centrelease of Letraset sheets containing Lorem Ipsum passages,
+          and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum
+        </p>
+      </div>
+    </div>
+
+    <div class="blog-sec1">
+      <div class="column1">
+        <div class="column3">
+        <h2>BENEFITS OF A HEALTHY DIET </h2>
+        <p>May help you live longer.
+          <br>
+           Keeps skin, teeth, and eyes healthy. 
+           <br>
+           Supports muscles. Boosts immunity.
+           <br>
+          Strengthens bones. Supports healthy pregnancies and breastfeeding.
+          <br>
+          Helps the digestive system function.
+        </p>
+      </div>
+    </div>
+      <div class="column1">
+        <img src="images/Rectangle 131.png" alt="img" />
+     
+      </div>
+    </div>
+
+    <div class="blog-sec">
+      <div class="column2">
+        <p>
+          Lorem Ipsum is simply dummy text of the printing and typesetting
+          industry. Lorem Ipsum has been the industry's standard dummy text ever
+          since the 1500s, when an unknown printer took a galley of type and
+          scrambled it to make a type specimen book. It has survived not only
+          five centrelease of Letraset sheets containing Lorem Ipsum passages,
+          and more recently with desktop publishing software like Aldus
+          PageMaker including versions of Lorem Ipsum
+        </p>
+      
+      </div>
+      <div class="column2">
+        <img src="images/Rectangle 134.png" alt="img" />
+      </div>
+    </div>
+
+    <footer class="footer">
+      <div class="container p-4">
+          <div class="col-md-4">
+              <h4 class="pb-3">
+                  <img src="images/fitness logo 5 .png" alt="Logo" />
+              </h4>
+              <p class="copy-right">Prioritize Your Fitness Goals with our world class services</p>
+          </div>
+          
+          <div class="col-md-3">
+              <h5 class="pb-4">Company</h5>
+              <ul class="list-style">
+                  <li class="pb-3">About</li>
+                  <li class="pb-3">Career</li>
+                  <li class="pb-3">Blogs</li>
+              </ul>
+          </div>
+          
+          <div class="col-md-3">
+              <h5 class="pb-4">Contact</h5>
+              <ul class="list-style">
+                  <li class="pb-3">Help/FAQs</li>
+                  <li class="pb-3">Press</li>
+                  <li class="pb-3">Mobile</li>
+              </ul>
+          </div>
+          
+          <div class="col-md-2">
+              <h5 class="pb-4">More</h5>
+              <ul class="list-style">
+                  <li class="pb-3">Program</li>
+                  <li class="pb-3">Plans</li>
+                  <li class="pb-3">Method</li>
+              </ul>
+          </div>
+          
+          <div class="col-md-3 popular-tag">
+            <h5 class="pb-3">Popular Tags</h5>
+            <ul class="list-style">
+                <div class="listed">
+                    <button>ABS</button>
+                    <button>Workout</button>
+                </div>
+                <div class="listed">
+                    <button class="highlight">Nutrition</button>
+                    <button>Gym</button>
+                </div>
+                <div class="listed">
+                    <button>Boxing</button>
+                    <button class="highlight">Trainers</button>
+                </div>
+                <div class="listed">
+                  <button class="highlight facilities">Facilities</button>
+                </div>
+             
+            </ul>
+          </div>
+      </div>
+  </footer>
+  
+  <div class="social-icons">
+    <i class="fa-brands fa-whatsapp"></i>
+    <i class="fa-brands fa-facebook-f"></i>
+    <i class="fa-brands fa-youtube"></i>
+    <i class="fab fa-twitter"></i>
+    
+  </div>  
+      </div>
+      <div class="last1">
+        <h1>CopyRight  All  Rights  Reserved</h1>
+      </div>
+  
+    <script src="landpage.js"></script>
+  </body>
+</html>
